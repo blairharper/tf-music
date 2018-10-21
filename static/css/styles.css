@@ -1,0 +1,162 @@
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    .content-centre {
+        width: 50%;
+        height: 400px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        font-size: 250%;
+        font-weight: bold;
+    }
+  
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    .content-centre {
+        width: 50%;
+        height: 350px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        font-size: 150%;
+        font-weight: bold;
+    }
+  
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 375px) {
+    .content-centre {
+        width: 60%;
+        height: 350px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        font-size: 120%;
+        font-weight: bold;
+    }
+  
+}
+
+@media screen and (min-width: 900px) {
+    .content-centre {
+        width: 50%;
+        height: 200px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        font-size: 250%;
+        font-weight: bold;
+    }
+  
+}
+
+body {
+    background-color: #e67300;
+    background: url('/static/img/bg_dark.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.top-title {
+    text-align: center;
+/*    padding-right: 74%;
+*/  padding-top: 4%;
+    font-family: Arial !important;
+    font-size: xx-large;
+    font-weight: bold;
+    padding-bottom: 1%;
+}
+
+.navi a {
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-decoration: none;
+}
+
+.navi a:visited {
+    text-decoration: none;
+}
+
+.navi a:hover {
+    text-decoration: underline;
+}
+
+.navi a:active {
+    text-decoration: underline;
+}
+
+
+
+h2 {
+    font-size: 80%;
+}
+
+p {
+    font-size: 40%;
+    text-align: left;
+}
+.card {
+    margin: 0 auto;
+    float: none;
+
+}
+.card-text {
+    color: black;
+}
+
+.about-container {
+    height: 150%;
+    border-radius: 25px;
+    font-size: 70%;
+
+}
+
+.about-container p {
+    font-size: 80%;
+}
+
+.btn-container {
+    padding-top: 10px;
+}
+
+a.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+footer{
+    position: absolute;
+    color: white;
+    bottom: 10%;
+    width: 100%;
+    padding-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
